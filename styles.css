@@ -4,17 +4,15 @@
     width: 600px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
 }
 .inner-square {
   /* your css goes here */
    background-color: green;
+   margin: 10px;
 }
 .circle {
   /* your css goes here */
   border-radius: 50%;
   background-color: blue;
-  height: auto;
-  width: auto;
+  margin: 10px;
 }
